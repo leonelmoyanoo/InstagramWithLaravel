@@ -1,0 +1,151 @@
+form .avatar {
+    width: 55px;
+    margin-bottom: 15px;
+}
+
+.nickname {
+    color: gray;
+}
+
+.btn-search {
+    margin-top: 0px;
+}
+
+
+/*AVATAR DE PUBLICACION Y DE ENCABEZADO*/
+
+.container-avatar {
+    border-radius: 900px;
+    width: 35px;
+    height: 35px;
+    overflow: hidden;
+    margin-left: 20px;
+}
+
+.container-avatar img {
+    height: 100%;
+}
+
+
+/*PUBLICACIONES DE IMAGENES*/
+
+.pub-image {
+    margin-bottom: 25px;
+}
+
+.pub-image .container-avatar {
+    float: left;
+    margin-right: 15px;
+}
+
+.pub-image .data-user {
+    font-weight: bold;
+    line-height: 35px;
+    float: left;
+}
+
+.pub-image .data-user a {
+    color: #444;
+}
+
+.pub-image .card-body {
+    padding: 0px;
+}
+
+.pub-image .description {
+    padding: 20px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.pub-image .date {
+    padding: 20px;
+    color: gray;
+}
+
+.pub-image .btn-comments {
+    margin: 20px;
+    margin-top: 10px;
+}
+
+.pub-image .likes {
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+
+.pub-image .likes img {
+    width: 25px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.pub-image-detail .comments {
+    padding: 20px;
+}
+
+.pub-image .actions {
+    float: right;
+}
+
+.number_likes {
+    color: gray;
+    font-size: 11px;
+}
+
+
+/*IMAGENES*/
+
+.image-container {
+    width: 100%;
+    max-height: 400px;
+    overflow: hidden;
+}
+
+.image-detail {
+    max-height: 500px;
+}
+
+.image-container img {
+    width: 100%;
+}
+
+
+/*COMENTARIOS*/
+
+.comment {
+    padding-top: 10px;
+}
+
+.comment .date {
+    padding: 0px;
+}
+
+
+/*PERFIL*/
+
+.data-profile {
+    margin-bottom: 40px;
+    height: 200px;
+}
+
+.data-profile .container-avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 900px;
+    overflow: hidden;
+    float: left;
+}
+
+.data-profile .container-avatar img {
+    width: 100%;
+    height: 100%;
+    border-radius: 900px;
+    overflow: hidden;
+}
+
+.data-profile .data-user {
+    float: left;
+    padding-left: 30px;
+    padding-top: 30px;
+}
